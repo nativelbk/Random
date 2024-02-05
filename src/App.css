@@ -1,0 +1,73 @@
+/** @format */
+
+.btn-primary {
+  background: #000;
+  width: 100px;
+  height: 20px;
+}
+/* #bg-img {
+  background-image: url("/Looper BG.svg");
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  color: rgb(0, 0, 255);
+}
+.img {
+  width: 7rem;
+} */
+.object {
+  animation: animate 2s infinite ease alternate;
+}
+.test {
+  -webkit-text-stroke: 1px white;
+  text-align: center;
+  color: transparent;
+  font-size: 100px;
+}
+.test::after {
+  content: "test";
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: pink;
+}
+@keyframes animate {
+  to {
+    transform: translateY(30px);
+  }
+}
+
+.hero {
+  background: url("/bg-hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* .bg-about{
+  background: url('/bg.png');
+  background-size:cover;
+  background-repeat:no-repeat;
+  /* position: absolute; */
+/* }  */
+.about {
+  display: flex;
+  /* justify-content: flex-; */
+  /* flex-basis: 40%; */
+}
+.about-text {
+  display: flex;
+  /* flex-basis: 60%; */
+  padding-right: 100px;
+}
+.img-about img {
+  max-width: 70%;
+}
+/* .about-img{
+  background: url('/Image 2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+/* .experience{
+  background: url('/image1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
